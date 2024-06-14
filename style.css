@@ -302,12 +302,14 @@ li{
 
 footer{
     background: rgba(4, 60, 170, 1);
+    margin-top: 5rem;
 }
 
 .footContainer{
     width: 80%;
     margin: auto;
-    padding: 2rem 0;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
 }
 
 .signUp{
@@ -327,7 +329,7 @@ footer{
 
 .signUpText p{
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 200;
     line-height: 24.59px;
     color: #fff;
@@ -355,7 +357,7 @@ footer{
 
 .signUpInput label{
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 24.59px;
     color: #fff;
@@ -367,4 +369,58 @@ footer{
 
 .signUpInput{
     width: 40%;
+}
+
+.footContact{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 5rem;
+}
+
+.serviceSide{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.logoSide{
+    width: 40%;
+}
+
+.logoSide p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.59px;
+    color: #fff;
+    width: 60%;
+}
+
+.serviceSide h4{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32.78px;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+
+.serviceSide li{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32.78px;
+    color: #fff;
+    padding-bottom: 0.7rem;
+}
+
+.copyright{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32.78px;
+    color: #fff;
+    padding-top: 2rem;
+    text-align: center;
 }
