@@ -797,3 +797,25 @@ footer {
   }
 
 }
+
+@media screen and (max-width: 375px){
+  .heroBtn button {
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+    margin-right: .5rem;
+  }
+
+  .heroText h2 {
+    font-size: 26px;
+  }
+
+  .clientText h2 {
+    font-size: 25px;
+    line-height: 39.18px;
+  }
+
+  .optionText p {
+    font-size: 12px;
+    width: 100%;
+  }
+}
