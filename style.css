@@ -1,421 +1,782 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-.container{
-    width: 100%;
+.container {
+  width: 100%;
 }
 
-.headerHero{
-    background-image: url(./images/heroBack.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* height: 100vh; */
+.headerHero {
+  background-image: url(./images/heroBack.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin: auto;
-    padding-top: 2rem;
-    align-items: center;
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-top: 2rem;
+  align-items: center;
 }
 
-nav ul{
-    display: flex;
-    gap: 2rem;
+nav ul {
+  display: flex;
+  gap: 2rem;
 }
 
-li{
-    list-style: none;
-    color: #fff;
-    font-family: Montserrat;
+li {
+  list-style: none;
+  color: #fff;
+  font-family: Montserrat;
 }
 
-.btn button{
-    background: rgba(27, 199, 104, 1);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 21.86px;
-    border: none;
-    padding: .5rem 1.5rem;
-    border-radius: 50px;
-    cursor: pointer;
-    color: #fff;
-    font-family: Montserrat;
+.btn button {
+  background: rgba(27, 199, 104, 1);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.86px;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #fff;
+  font-family: Montserrat;
 }
 
-.hero{
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin: auto;
-    /* margin-bottom: -.3rem; */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  /* margin-bottom: -.3rem; */
 }
 
-.heroText h2{
-    font-family: Montserrat;
-    font-size: 40px;
-    font-weight: 900;
+.heroText h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 65.57px;
+  color: #fff;
+}
+
+.heroText p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.59px;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.heroImage img {
+  width: 100%;
+}
+
+.heroText {
+  width: 40%;
+  margin-top: 8rem;
+}
+
+.heroImage {
+  width: 40%;
+  margin-left: 3rem;
+}
+
+.heroImage img {
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.heroBtn button {
+  font-family: Montserrat;
+  font-size: 16px;
+  border: 1px solid #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 50px;
+  cursor: pointer;
+  background: none;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.heroBtn button:hover {
+  background: #fff;
+  color: blue;
+}
+
+.heroBtn {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.heroForm {
+  width: 100%;
+}
+
+.heroForm input {
+  width: 70%;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+}
+
+.heroForm button {
+  width: 20%;
+  padding: 0.7rem;
+  background: rgba(27, 199, 104, 1);
+  color: #fff;
+  cursor: pointer;
+  border: rgba(27, 199, 104, 1);
+  margin-left: -0.3rem;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.innerContainer {
+  width: 80%;
+  margin: auto;
+}
+
+.affiliation {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.topAffiliate h2 {
+  font-family: Montserrat;
+  font-size: 36px;
+  /* font-weight: 900; */
+  line-height: 49.18px;
+  color: rgba(4, 60, 170, 1);
+}
+
+.lines {
+  display: flex;
+  width: 10%;
+  margin: auto;
+}
+
+.blue {
+  width: 45.5px;
+  border: 2px solid rgba(4, 60, 170, 1);
+  border-radius: 50px 0 0 50px;
+}
+
+.green {
+  width: 45.5px;
+  border: 2px solid rgba(27, 199, 104, 1);
+  border-radius: 0px 50px 50px 0px;
+}
+
+.affiliateImages {
+  display: flex;
+  gap: 5rem;
+  width: 40%;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.juhel img {
+  width: 100%;
+}
+
+.emzor img {
+  width: 100%;
+}
+.gsk img {
+  width: 100%;
+}
+
+.topBenefits h2 {
+  font-family: Montserrat;
+  font-size: 36px;
+  line-height: 49.18px;
+  color: rgba(4, 60, 170, 1);
+  text-align: center;
+}
+
+.medicine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
+.optionText p {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+}
+
+.medicineText h5 {
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 32.78px;
+  color: rgba(4, 60, 170, 1);
+  width: 60%;
+  padding-bottom: 1rem;
+}
+
+.medicineText button {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(27, 199, 104, 1);
+  padding: 1rem 2rem;
+  border: 1px solid rgba(27, 199, 104, 1);
+  background: transparent;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.medicineText button:hover {
+  background: rgba(27, 199, 104, 1);
+  color: #fff;
+}
+
+.medicineImage img {
+  width: 100%;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.line {
+  display: flex;
+  width: 40%;
+  margin: auto;
+}
+
+.clientText h2 {
+  font-family: Montserrat;
+  font-size: 36px;
+  line-height: 49.18px;
+  margin-bottom: 0.5rem;
+}
+
+.clientText p {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  padding: 2rem 0 1rem 0;
+  width: 90%;
+  color: rgba(122, 122, 122, 1);
+}
+
+.clientText h5 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 49.18px;
+  color: rgb(6, 75, 214);
+  padding-bottom: 2rem;
+}
+
+.clientImage img {
+  width: 100%;
+}
+
+.clientImage {
+  width: 50%;
+}
+
+.clientText {
+  width: 40%;
+}
+
+footer {
+  background: rgba(4, 60, 170, 1);
+  margin-top: 5rem;
+}
+
+.footContainer {
+  width: 80%;
+  margin: auto;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+.signUp {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.signUpText h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.78px;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+.signUpText p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 24.59px;
+  color: #fff;
+}
+
+.signUpInput input {
+  padding-left: 0.7rem;
+  border: 1px solid #fff;
+  height: 40px;
+  border-radius: 50px 0px 0px 50px;
+  width: 65%;
+  margin-top: 1rem;
+}
+
+.signUpInput button {
+  /* padding: 0.7rem; */
+  height: 40px;
+  background: rgba(27, 199, 104, 1);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  margin-left: -0.3rem;
+  border-radius: 0px 50px 50px 0px;
+  width: 30%;
+  font-family: Montserrat;
+}
+
+.signUpInput label {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.59px;
+  color: #fff;
+}
+
+.signUpText {
+  width: 40%;
+}
+
+.signUpInput {
+  width: 40%;
+}
+
+.footContact {
+  display: flex;
+  margin-top: 5rem;
+}
+
+.serviceSide {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.logoSide {
+  width: 40%;
+}
+
+.logoSide p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.59px;
+  color: #fff;
+  width: 60%;
+}
+
+.serviceSide h4 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32.78px;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+.serviceSide li {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32.78px;
+  color: #fff;
+  padding-bottom: 0.7rem;
+}
+
+.copyright {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32.78px;
+  color: #fff;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .heroText h2 {
+    font-size: 35px;
+    font-weight: 600;
     line-height: 65.57px;
-    color: #fff;
+  }
 
-}
-
-.heroText p{
-    font-family: Montserrat;
+  .heroText p {
     font-size: 16px;
     font-weight: 400;
     line-height: 24.59px;
-    color: #fff;
     padding: 1rem 0;
-}
+  }
 
-.heroImage img{
-    width: 100%;
-}
-
-
-.heroText{
-    width: 40%;
-    margin-top: 8rem;
-}
-
-.heroImage{
-    width: 40%;
-    margin-left: 3rem;
-}
-
-.heroImage img{
-    width: 100%;
-    margin-top: 6rem;
-}
-
-.heroBtn button{
-    font-family: Montserrat;
-    font-size: 16px;
-    border: 1px solid #fff;
-    padding: .5rem 2rem;
-    border-radius: 50px;
-    cursor: pointer;
-    background: none;
-    color: #fff;
-    margin-right: 1.1rem;
-}
-
-.heroBtn button:hover{
-    background: #fff;
-    color: blue;
-}
-
-
-.heroBtn{
-    margin-bottom: 2rem;
-}
-
-.heroForm{
-    width: 100%;
-}
-
-.heroForm input{
-    width: 70%;
-    padding: .7rem;
-    border: none;
-    border-radius: 50px 0px 0px 50px;
-}
-
-.heroForm button{
-    width: 20%;
-    padding: .7rem;
-    background: rgba(27, 199, 104, 1);
-    color: #fff;
-    cursor: pointer;
-    border: rgba(27, 199, 104, 1);
-    margin-left: -.3rem;
-    border-radius: 0px 50px 50px 0px;
-}
-
-
-.innerContainer{
-    width: 80%;
-    margin: auto;
-}
-
-.affiliation{
-    text-align: center;
-    margin-top: 3rem;
-}
-
-.topAffiliate h2{
-    font-family: Montserrat;
-    font-size: 36px;
-    /* font-weight: 900; */
-    line-height: 49.18px;
-    color: rgba(4, 60, 170, 1);
-}
-
-.lines{
-    display: flex;
-    width: 10%;
-    margin: auto;
-}
-
-.blue{
-    width: 45.5px;
-    border: 2px solid rgba(4, 60, 170, 1);
-    border-radius: 50px 0 0 50px;
-}
-
-.green{
-    width: 45.5px;
-    border: 2px solid rgba(27, 199, 104, 1);
-    border-radius: 0px 50px 50px 0px;
-}
-
-
-.affiliateImages{
-    display: flex;
-    gap: 5rem;
-    width: 40%;
-    margin: auto;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-
-.topBenefits h2{
-    font-family: Montserrat;
-    font-size: 36px;
-    line-height: 49.18px;
-    color: rgba(4, 60, 170, 1);
-    text-align: center;
-}
-
-.medicine{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-.option{
-    display: flex;
-    align-items: center;
-    gap: .7rem;
-    margin-top: 1rem;
-}
-
-.optionText p{
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24.59px;
-}
-
-.medicineText h5{
-    font-family: Montserrat;
-    font-size: 24px;
-    line-height: 32.78px;
-    color: rgba(4, 60, 170, 1);
-    width: 60%;
-    padding-bottom: 1rem;
-}
-
-
-.medicineText button{
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 500;
-    color: rgba(27, 199, 104, 1);
-    padding: 1rem 2rem;
-    border: 1px solid rgba(27, 199, 104, 1);
-    background: transparent;
-    border-radius: 50px;
-    cursor: pointer;
-    margin-top: 2rem;
-}
-
-.medicineText button:hover{
-    background: rgba(27, 199, 104, 1);
-    color: #fff;
-}
-
-
-.clients{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-}
-
-.line{
-    display: flex;
-    width: 40%;
-    margin: auto;
-}
-
-.clientText h2{
-    font-family: Montserrat;
-    font-size: 36px;
-    line-height: 49.18px;
-    margin-bottom: .5rem;
-}
-
-.clientText p{
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24.59px;
-    padding: 2rem 0 1rem 0;
-    width: 90%;
-    color: rgba(122, 122, 122, 1);
-}
-
-.clientText h5{
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 49.18px;
-    color: rgb(6, 75, 214);
-    padding-bottom: 2rem;
-}
-
-.clientImage img{
-    width: 100%;
-}
-
-.clientImage{
+  .heroText {
     width: 50%;
+    margin-top: 8rem;
+  }
+
+  .affiliateImages {
+    width: 60%;
+  }
+
+  .optionText p {
+    font-size: 16px;
+  }
+
+  .medicineText h5 {
+    width: 70%;
+  }
+
+  .clientText h2 {
+    font-size: 30px;
+  }
+
+  .signUpInput {
+    width: 50%;
+  }
+
+  .serviceSide {
+    gap: 3rem;
+  }
 }
 
-.clientText{
-    width: 40%;
-}
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
 
+  .btn {
+    display: none;
+  }
 
-footer{
-    background: rgba(4, 60, 170, 1);
-    margin-top: 5rem;
-}
+  .heroText h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45.57px;
+  }
 
-.footContainer{
+  .heroText p {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .heroText {
+    width: 60%;
+    margin-top: 6rem;
+  }
+
+  .heroBtn button {
+    padding: 0.5rem 1rem;
+  }
+
+  .heroForm button {
+    width: 25%;
+  }
+
+  .heroForm input {
+    width: 68%;
+  }
+
+  .heroImage img {
+    width: 115%;
+  }
+
+  .optionText p {
+    font-size: 11px;
+  }
+
+  .medicineText h5 {
     width: 80%;
-    margin: auto;
-    padding-top: 4rem;
+    font-size: 20px;
+  }
+
+  .medicineText button {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0.7rem 1rem;
+  }
+
+  .clientText p {
+    font-size: 14px;
+    width: 90%;
+    padding: 1rem 0 0.5rem 0;
+  }
+
+  .clientText h5 {
+    font-size: 14px;
     padding-bottom: 1rem;
+  }
+
+  .clientText h2 {
+    font-size: 23px;
+    line-height: 39.18px;
+    margin-bottom: 0.1rem;
+  }
+
+  .blue {
+    width: 35px;
+  }
+
+  .green {
+    width: 35px;
+  }
+
+  .signUpInput input {
+    width: 65%;
+  }
+
+  .signUpInput button {
+    width: 35%;
+    font-size: 12px;
+  }
+
+  .logoSide p {
+    font-size: 14px;
+    width: 60%;
+  }
+
+  .serviceSide h4 {
+    font-size: 14px;
+  }
+
+  .serviceSide li {
+    font-size: 14px;
+  }
+
+  .serviceSide {
+    gap: 2rem;
+  }
+
+  .signUpText h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .signUpText p {
+    font-size: 14px;
+  }
 }
 
-.signUp{
+@media screen and (max-width: 425px) {
+  .hero {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+
+  .heroText {
+    width: 100%;
+    margin-top: 5rem;
+  }
+
+  .heroImage {
+    width: 100%;
+    margin-left: 0rem;
+  }
+
+  .heroBtn button {
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    margin-right: 0.5rem;
+  }
+
+  .heroForm {
+    width: 100%;
+  }
+
+  .heroForm input {
+    width: 70%;
+    padding: 0.7rem;
+  }
+
+  .heroForm button {
+    width: 25%;
+  }
+
+  .lines {
+  display: flex;
+  width: 20%;
+  margin: auto;
+}
+
+  .blue {
+  width: 45.5px;
+}
+
+.green {
+  width: 45.5px;
+}
+
+.affiliateImages {
+  display: flex;
+  gap: 3rem;
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.topAffiliate h2 {
+    font-size: 30px;
+  }
+
+  .topBenefits h2 {
+    font-size: 30px;
+  }
+
+  .medicine {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  
+  .optionText p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .medicineText h5 {
+    font-size: 20px;
+    width: 70%;
+  }
+
+  .clients {
+    flex-direction: column;
+  }
+  
+  .line {
     display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
-}
+    width: 40%;
+    margin: auto;
+  }
+  
+  .clientText h2 {
+    font-size: 30px;
+    line-height: 49.18px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .clientText p {
+    font-size: 14px;
+    width: 90%;
+  }
+  
+  .clientText h5 {
+    font-size: 14px;
+    padding-bottom: 2rem;
+  }
+  
+  .clientImage img {
+    width: 100%;
+  }
+  
+  .clientImage {
+    width: 100%;
+  }
+  
+  .clientText {
+    width: 100%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
 
-.signUpText h3{
-    font-family: Montserrat;
+  .signUp {
+    flex-direction: column;
+  }
+  
+  .signUpText h3 {
     font-size: 24px;
     font-weight: 400;
     line-height: 32.78px;
-    color: #fff;
-    padding-bottom: 1rem;
-}
-
-.signUpText p{
-    font-family: Montserrat;
+  }
+  
+  .signUpText p {
     font-size: 16px;
     font-weight: 200;
     line-height: 24.59px;
-    color: #fff;
-}
-
-.signUpInput input{
-    padding: .7rem;
-    border:  1px solid #fff;
-    border-radius: 50px 0px 0px 50px;
-    width: 65%;
-    margin-top: 1rem;
-}
-
-.signUpInput button{
-    padding: .7rem;
-    background: rgba(27, 199, 104, 1);
-    color: #fff;
-    cursor: pointer;
-    border: none;
-    margin-left: -.3rem;
-    border-radius: 0px 50px 50px 0px;
-    width: 30%;
-    font-family: Montserrat;
-}
-
-.signUpInput label{
-    font-family: Montserrat;
+  }
+  
+  .signUpText {
+    width: 100%;
+  }
+  
+  .signUpInput {
+    width: 100%;
+  }
+  
+  .footContact {
+    flex-direction: column;
+  }
+  
+  .serviceSide {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .logoSide {
+    width: 100%;
+  }
+  
+  .logoSide p {
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24.59px;
-    color: #fff;
-}
-
-.signUpText{
-    width: 40%
-}
-
-.signUpInput{
-    width: 40%;
-}
-
-.footContact{
-    display: flex;
-    /* justify-content: space-between; */
-    margin-top: 5rem;
-}
-
-.serviceSide{
-    display: flex;
-    align-items: center;
-    gap: 4rem;
-}
-
-.logoSide{
-    width: 40%;
-}
-
-.logoSide p{
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24.59px;
-    color: #fff;
-    width: 60%;
-}
-
-.serviceSide h4{
-    font-family: Montserrat;
+    width: 100%;
+  }
+  
+  .serviceSide h4 {
     font-size: 18px;
     font-weight: 600;
     line-height: 32.78px;
     color: #fff;
     padding-bottom: 1rem;
-}
-
-
-.serviceSide li{
+  }
+  
+  .serviceSide li {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
     line-height: 32.78px;
     color: #fff;
     padding-bottom: 0.7rem;
-}
-
-.copyright{
+  }
+  
+  .copyright {
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
@@ -423,4 +784,16 @@ footer{
     color: #fff;
     padding-top: 2rem;
     text-align: center;
+  }
+
+  .signUpInput input {
+    border: 1px solid #fff;
+    height: 40px;
+  }
+
+  .signUpInput button {
+    height: 40px;
+    /* width: 30%; */
+  }
+
 }
